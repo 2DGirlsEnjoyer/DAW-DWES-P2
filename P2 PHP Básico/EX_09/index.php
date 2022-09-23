@@ -1,3 +1,7 @@
 <?php
-$hash=md5('SergioMasot');
-echo($hash.'</br>');
+
+function comparar($palabra){
+    $hash=md5($palabra);
+    echo($hash.'</br>');
+}
+comparar('puerco');
