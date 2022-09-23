@@ -25,4 +25,4 @@ function comparar($vector, $valor, $orden){
     }
 }
 
-comparar([1 => 'primero', 2 => 'segundo', 3 => 'tercero', 4 => 'cuarto', 5 => 'quinto'], 'valor', 'desc');
+comparar([1 => 'primero', 2 => 'segundo', 3 => 'tercero', 4 => 'cuarto', 5 => 'quinto'], 'clave', 'asc');

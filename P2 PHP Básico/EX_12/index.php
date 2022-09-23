@@ -7,10 +7,8 @@ function numero_primo_wilson($num1){
     $result++;
 
     if (($result % $num1) == 0.0){
-        return "true";
-    } else {
-        return "false";
-    }
+        return 'El numero '.$num1. " es primo";    } else {
+        return 'El numero '.$num1. " no es primo";    }
 
 }
 
@@ -22,10 +20,9 @@ function numero_primo($num1){
         }
     }
     if ($contador==2){
-        return "true";
+        return 'El numero '.$num1. " es primo";
     } else {
-        return "false";
-    }
+        return 'El numero '.$num1. " no es primo";    }
 }
 
 echo numero_primo_wilson(21.0).'</br>';

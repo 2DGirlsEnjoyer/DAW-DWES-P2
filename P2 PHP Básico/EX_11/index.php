@@ -2,13 +2,13 @@
 
 function es_mayus($palabra){
     if ($palabra == $str = strtoupper($palabra)){
-        $area = 'todos son mayus';
+        $mensaje = 'Todas las letras de "'.$palabra.'" son mayusculas';
     } elseif ($palabra == $str = strtolower($palabra)){
-        $area = 'todos son minus';
+        $mensaje = 'Todas las letras de "'.$palabra.'" son minusculas';
     }
     else {
-        $area = 'no todos son mayus';
+        $mensaje = 'Todas las letras de "'.$palabra.'" no son mayusculas ni minusculas';
     }
-    return $area;
+    return $mensaje;
 }
 echo es_mayus('palabra');
