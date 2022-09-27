@@ -1,1 +1,1 @@
-tu madre es la mas puta de la tierra
+tu madre es lececec mas puta de la tierra
