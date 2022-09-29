@@ -1,1 +1,0 @@
-tu madre exe3crs lececec mas puta de la tierra
